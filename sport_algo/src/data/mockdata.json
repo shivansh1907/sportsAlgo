@@ -1,0 +1,349 @@
+{
+  "player": {
+    "id": "p001",
+    "name": "Rahul Sharma",
+    "position": "Midfielder",
+    "team": "Delhi FC",
+    "jersey": 8,
+    "age": 23,
+    "overallRating": 88,
+    "avatar": "/player-avatar.png",
+    "attributes": {
+      "pace": 92,
+      "shooting": 85,
+      "passing": 88,
+      "dribbling": 90,
+      "defending": 45,
+      "workRate": 78
+    },
+    "seasonStats": {
+      "matchesPlayed": 24,
+      "goals": 12,
+      "assists": 8,
+      "distancePerMatch": 9.2,
+      "passAccuracy": 78,
+      "tacklesWon": 31,
+      "topSpeed": 33.4,
+      "avgRating": 7.8,
+      "xG": 10.4,
+      "xA": 6.2,
+      "totalDistance": 142,
+      "sprintCount": 186
+    },
+    "leagueAverageBenchmark": {
+      "pace": 75,
+      "shooting": 68,
+      "passing": 72,
+      "dribbling": 65,
+      "defending": 60,
+      "workRate": 70
+    }
+  },
+
+  "matches": [
+    {
+      "id": "m001",
+      "homeTeam": "Delhi FC",
+      "awayTeam": "South City FC",
+      "homeScore": 2,
+      "awayScore": 1,
+      "date": "2026-05-18",
+      "venue": "Nehru Stadium, Delhi",
+      "duration": 60,
+      "league": "I-League",
+      "isLive": false,
+      "playerStats": {
+        "goals": 1,
+        "assists": 1,
+        "distance": 9.2,
+        "avgSpeed": 12.5,
+        "topSpeed": 31.2,
+        "passes": 42,
+        "passAccuracy": 81,
+        "tackles": 5,
+        "shots": 3,
+        "shotsOnTarget": 2,
+        "rating": 8.4
+      }
+    },
+    {
+      "id": "m002",
+      "homeTeam": "Delhi FC",
+      "awayTeam": "Rangers FC",
+      "homeScore": 3,
+      "awayScore": 0,
+      "date": "2026-05-11",
+      "venue": "JLN Stadium, Delhi",
+      "duration": 60,
+      "league": "Local Derby",
+      "isLive": false,
+      "playerStats": {
+        "goals": 2,
+        "assists": 0,
+        "distance": 10.1,
+        "avgSpeed": 11.8,
+        "topSpeed": 33.4,
+        "passes": 38,
+        "passAccuracy": 74,
+        "tackles": 3,
+        "shots": 5,
+        "shotsOnTarget": 3,
+        "rating": 9.1
+      }
+    },
+    {
+      "id": "m003",
+      "homeTeam": "United SC",
+      "awayTeam": "Delhi FC",
+      "homeScore": 1,
+      "awayScore": 2,
+      "date": "2026-05-04",
+      "venue": "Salt Lake Stadium",
+      "duration": 60,
+      "league": "Cup Semi-Final",
+      "isLive": false,
+      "playerStats": {
+        "goals": 0,
+        "assists": 2,
+        "distance": 8.7,
+        "avgSpeed": 11.2,
+        "topSpeed": 29.8,
+        "passes": 51,
+        "passAccuracy": 85,
+        "tackles": 7,
+        "shots": 1,
+        "shotsOnTarget": 0,
+        "rating": 7.6
+      }
+    }
+  ],
+
+  "heatmap": {
+    "matchId": "m001",
+    "resolution": { "pitchLength": 105, "pitchWidth": 68 },
+    "zones": [
+      { "x": 55, "y": 34, "intensity": 0.95 },
+      { "x": 60, "y": 30, "intensity": 0.88 },
+      { "x": 50, "y": 38, "intensity": 0.82 },
+      { "x": 65, "y": 34, "intensity": 0.78 },
+      { "x": 45, "y": 32, "intensity": 0.75 },
+      { "x": 58, "y": 28, "intensity": 0.72 },
+      { "x": 52, "y": 40, "intensity": 0.68 },
+      { "x": 70, "y": 35, "intensity": 0.65 },
+      { "x": 62, "y": 25, "intensity": 0.60 },
+      { "x": 48, "y": 36, "intensity": 0.58 },
+      { "x": 40, "y": 34, "intensity": 0.52 },
+      { "x": 72, "y": 30, "intensity": 0.48 },
+      { "x": 55, "y": 42, "intensity": 0.45 },
+      { "x": 75, "y": 34, "intensity": 0.40 },
+      { "x": 35, "y": 32, "intensity": 0.35 },
+      { "x": 80, "y": 28, "intensity": 0.30 },
+      { "x": 30, "y": 34, "intensity": 0.22 },
+      { "x": 85, "y": 34, "intensity": 0.18 },
+      { "x": 25, "y": 34, "intensity": 0.12 },
+      { "x": 90, "y": 30, "intensity": 0.08 }
+    ]
+  },
+
+  "events": [
+    { "id": "e001", "type": "goal", "minute": 23, "playerId": "p001", "x": 88, "y": 32, "xG": 0.42, "assist": "p003", "outcome": "scored" },
+    { "id": "e002", "type": "shot", "minute": 11, "playerId": "p001", "x": 78, "y": 25, "xG": 0.18, "outcome": "saved" },
+    { "id": "e003", "type": "shot", "minute": 52, "playerId": "p001", "x": 92, "y": 40, "xG": 0.85, "outcome": "missed" },
+    { "id": "e004", "type": "goal", "minute": 57, "playerId": "p005", "x": 85, "y": 35, "xG": 0.62, "assist": "p001", "outcome": "scored" },
+    { "id": "e005", "type": "shot", "minute": 34, "playerId": "p007", "x": 82, "y": 28, "xG": 0.31, "outcome": "saved" },
+    { "id": "e006", "type": "shot", "minute": 45, "playerId": "p009", "x": 75, "y": 38, "xG": 0.12, "outcome": "missed" },
+    { "id": "e007", "type": "pass", "minute": 5, "playerId": "p001", "from": { "x": 50, "y": 34 }, "to": { "x": 65, "y": 28 }, "outcome": "completed" },
+    { "id": "e008", "type": "pass", "minute": 8, "playerId": "p001", "from": { "x": 55, "y": 30 }, "to": { "x": 70, "y": 22 }, "outcome": "completed" },
+    { "id": "e009", "type": "pass", "minute": 15, "playerId": "p001", "from": { "x": 48, "y": 36 }, "to": { "x": 60, "y": 40 }, "outcome": "incomplete" },
+    { "id": "e010", "type": "tackle", "minute": 18, "playerId": "p001", "x": 42, "y": 30, "outcome": "won" },
+    { "id": "e011", "type": "tackle", "minute": 29, "playerId": "p001", "x": 38, "y": 35, "outcome": "won" },
+    { "id": "e012", "type": "tackle", "minute": 40, "playerId": "p001", "x": 45, "y": 28, "outcome": "lost" },
+    { "id": "e013", "type": "goal", "minute": 38, "playerId": "p010", "x": 15, "y": 30, "xG": 0.55, "outcome": "scored", "team": "away" }
+  ],
+
+  "passingNetwork": {
+    "matchId": "m001",
+    "players": [
+      { "id": "p001", "name": "R. Sharma", "position": "CM", "avgX": 55, "avgY": 34, "involvement": 42 },
+      { "id": "p002", "name": "A. Kapoor", "position": "ST", "avgX": 82, "avgY": 30, "involvement": 28 },
+      { "id": "p003", "name": "V. Singh", "position": "RW", "avgX": 75, "avgY": 15, "involvement": 35 },
+      { "id": "p004", "name": "Z. Khan", "position": "LW", "avgX": 72, "avgY": 52, "involvement": 30 },
+      { "id": "p005", "name": "K. Malhotra", "position": "CB", "avgX": 25, "avgY": 28, "involvement": 38 },
+      { "id": "p006", "name": "S. Verma", "position": "CB", "avgX": 25, "avgY": 42, "involvement": 36 },
+      { "id": "p007", "name": "I. Gupta", "position": "LB", "avgX": 35, "avgY": 58, "involvement": 32 },
+      { "id": "p008", "name": "A. Rao", "position": "RB", "avgX": 35, "avgY": 10, "involvement": 31 },
+      { "id": "p009", "name": "N. D'Souza", "position": "CDM", "avgX": 42, "avgY": 34, "involvement": 45 },
+      { "id": "p010", "name": "R. Das", "position": "CAM", "avgX": 65, "avgY": 34, "involvement": 33 },
+      { "id": "p011", "name": "P. Joshi", "position": "GK", "avgX": 8, "avgY": 34, "involvement": 18 }
+    ],
+    "links": [
+      { "source": "p001", "target": "p009", "passes": 18 },
+      { "source": "p001", "target": "p003", "passes": 14 },
+      { "source": "p001", "target": "p010", "passes": 12 },
+      { "source": "p001", "target": "p004", "passes": 10 },
+      { "source": "p009", "target": "p005", "passes": 15 },
+      { "source": "p009", "target": "p006", "passes": 13 },
+      { "source": "p005", "target": "p008", "passes": 11 },
+      { "source": "p006", "target": "p007", "passes": 10 },
+      { "source": "p003", "target": "p002", "passes": 9 },
+      { "source": "p010", "target": "p002", "passes": 8 },
+      { "source": "p004", "target": "p010", "passes": 7 },
+      { "source": "p007", "target": "p004", "passes": 6 },
+      { "source": "p008", "target": "p003", "passes": 8 },
+      { "source": "p011", "target": "p005", "passes": 5 },
+      { "source": "p011", "target": "p006", "passes": 4 }
+    ]
+  },
+
+  "matchTimeline": {
+    "matchId": "m001",
+    "momentum": [
+      { "minute": 0, "value": 0 },
+      { "minute": 5, "value": 15 },
+      { "minute": 10, "value": 25 },
+      { "minute": 15, "value": 40 },
+      { "minute": 20, "value": 55 },
+      { "minute": 23, "value": 70, "event": "goal", "team": "home", "player": "R. Sharma" },
+      { "minute": 25, "value": 60 },
+      { "minute": 30, "value": 45 },
+      { "minute": 35, "value": 30 },
+      { "minute": 38, "value": -20, "event": "goal", "team": "away", "player": "Opponent" },
+      { "minute": 40, "value": -10 },
+      { "minute": 45, "value": 20 },
+      { "minute": 50, "value": 35 },
+      { "minute": 55, "value": 50 },
+      { "minute": 57, "value": 75, "event": "goal", "team": "home", "player": "K. Malhotra" },
+      { "minute": 60, "value": 65 }
+    ]
+  },
+
+  "clips": [
+    {
+      "id": "c001",
+      "matchId": "m001",
+      "playerId": "p001",
+      "type": "goal",
+      "minute": 23,
+      "xG": 0.42,
+      "duration": 12,
+      "title": "Goal vs South City",
+      "match": "Delhi FC vs South City FC",
+      "date": "2026-05-18",
+      "league": "Premier Division",
+      "thumbnail": "/clips/goal-south-city.jpg"
+    },
+    {
+      "id": "c002",
+      "matchId": "m001",
+      "playerId": "p001",
+      "type": "assist",
+      "minute": 57,
+      "xG": 0.62,
+      "duration": 15,
+      "title": "Assist vs South City",
+      "match": "Delhi FC vs South City FC",
+      "date": "2026-05-18",
+      "league": "Premier Division",
+      "thumbnail": "/clips/assist-south-city.jpg"
+    },
+    {
+      "id": "c003",
+      "matchId": "m002",
+      "playerId": "p001",
+      "type": "goal",
+      "minute": 14,
+      "xG": 0.38,
+      "duration": 10,
+      "title": "Goal vs Rangers",
+      "match": "Delhi FC vs Rangers FC",
+      "date": "2026-05-11",
+      "league": "Local Derby",
+      "thumbnail": "/clips/goal-rangers-1.jpg"
+    },
+    {
+      "id": "c004",
+      "matchId": "m002",
+      "playerId": "p001",
+      "type": "goal",
+      "minute": 51,
+      "xG": 0.71,
+      "duration": 14,
+      "title": "Goal vs Rangers (2nd)",
+      "match": "Delhi FC vs Rangers FC",
+      "date": "2026-05-11",
+      "league": "Local Derby",
+      "thumbnail": "/clips/goal-rangers-2.jpg"
+    },
+    {
+      "id": "c005",
+      "matchId": "m003",
+      "playerId": "p001",
+      "type": "assist",
+      "minute": 33,
+      "xG": 0.55,
+      "duration": 11,
+      "title": "Clutch Save vs United",
+      "match": "United SC vs Delhi FC",
+      "date": "2026-05-04",
+      "league": "Cup Semi-Final",
+      "thumbnail": "/clips/assist-united.jpg"
+    }
+  ],
+
+  "careerProgression": {
+    "seasons": [
+      { "season": "2023-24", "matches": 14, "goals": 3, "assists": 2, "avgRating": 6.5, "distancePerMatch": 7.8, "passAccuracy": 68, "topSpeed": 30.1 },
+      { "season": "2024-25", "matches": 20, "goals": 7, "assists": 5, "avgRating": 7.2, "distancePerMatch": 8.5, "passAccuracy": 73, "topSpeed": 31.8 },
+      { "season": "2025-26", "matches": 24, "goals": 12, "assists": 8, "avgRating": 7.8, "distancePerMatch": 9.2, "passAccuracy": 78, "topSpeed": 33.4 }
+    ],
+    "personalBests": {
+      "longestDistance": { "value": 11.3, "unit": "km", "match": "vs Rangers FC", "date": "2026-02-12" },
+      "highestRating": { "value": 9.4, "match": "vs Blue Stars", "date": "2026-03-08" },
+      "topSpeed": { "value": 33.4, "unit": "km/h", "match": "vs Rangers FC", "date": "2026-05-11" },
+      "mostGoals": { "value": 3, "match": "vs Blue Stars", "date": "2026-03-08" }
+    },
+    "ratingHistory": [
+      { "match": 1, "rating": 6.2 }, { "match": 2, "rating": 6.8 }, { "match": 3, "rating": 7.0 },
+      { "match": 4, "rating": 6.5 }, { "match": 5, "rating": 7.3 }, { "match": 6, "rating": 7.1 },
+      { "match": 7, "rating": 7.8 }, { "match": 8, "rating": 7.5 }, { "match": 9, "rating": 8.0 },
+      { "match": 10, "rating": 7.6 }, { "match": 11, "rating": 8.2 }, { "match": 12, "rating": 7.9 },
+      { "match": 13, "rating": 8.4 }, { "match": 14, "rating": 8.1 }, { "match": 15, "rating": 8.6 },
+      { "match": 16, "rating": 7.8 }, { "match": 17, "rating": 8.3 }, { "match": 18, "rating": 8.7 },
+      { "match": 19, "rating": 8.5 }, { "match": 20, "rating": 9.1 }, { "match": 21, "rating": 8.4 },
+      { "match": 22, "rating": 8.8 }, { "match": 23, "rating": 7.6 }, { "match": 24, "rating": 8.4 }
+    ]
+  },
+
+  "leaderboard": {
+    "teamGoals": [
+      { "rank": 1, "playerId": "p002", "name": "Arjun Kapoor", "position": "Elite Striker", "value": 18, "avatar": "AK" },
+      { "rank": 2, "playerId": "p003", "name": "Vikram Singh", "position": "Midfield Engine", "value": 15, "avatar": "VS" },
+      { "rank": 3, "playerId": "p004", "name": "Zaid Khan", "position": "Wing Wizard", "value": 14, "avatar": "ZK" },
+      { "rank": 4, "playerId": "p005", "name": "Karan Malhotra", "position": "Central Defender", "value": 12, "avatar": "KM" },
+      { "rank": 5, "playerId": "p001", "name": "Rahul Sharma", "position": "Midfielder", "value": 11, "avatar": "RS", "isCurrentUser": true, "percentile": "Top 22%" },
+      { "rank": 6, "playerId": "p006", "name": "Samir Verma", "position": "Centre Back", "value": 10, "avatar": "SV" },
+      { "rank": 7, "playerId": "p007", "name": "Ishan Gupta", "position": "Left Back", "value": 9, "avatar": "IG" },
+      { "rank": 8, "playerId": "p008", "name": "Aditya Rao", "position": "Right Back", "value": 9, "avatar": "AR" },
+      { "rank": 9, "playerId": "p009", "name": "Neil D'Souza", "position": "CDM", "value": 8, "avatar": "ND" },
+      { "rank": 10, "playerId": "p010", "name": "Rohan Das", "position": "CAM", "value": 7, "avatar": "RD" }
+    ],
+    "teamAssists": [
+      { "rank": 1, "playerId": "p001", "name": "Rahul Sharma", "value": 8, "isCurrentUser": true },
+      { "rank": 2, "playerId": "p003", "name": "Vikram Singh", "value": 7 },
+      { "rank": 3, "playerId": "p010", "name": "Rohan Das", "value": 6 }
+    ],
+    "teamDistance": [
+      { "rank": 1, "playerId": "p009", "name": "Neil D'Souza", "value": 158 },
+      { "rank": 2, "playerId": "p001", "name": "Rahul Sharma", "value": 142, "isCurrentUser": true },
+      { "rank": 3, "playerId": "p007", "name": "Ishan Gupta", "value": 138 }
+    ]
+  },
+
+  "distanceBreakdown": {
+    "matchId": "m001",
+    "walk": { "distance": 2.1, "percentage": 23 },
+    "jog": { "distance": 3.8, "percentage": 41 },
+    "run": { "distance": 2.5, "percentage": 27 },
+    "sprint": { "distance": 0.8, "percentage": 9 }
+  }
+}
