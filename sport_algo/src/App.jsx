@@ -8,8 +8,12 @@ import NavBar from './components/layouts/Navbar';
 import { ModeProvider } from './hooks/useMode';
 import { ThemeProvider } from './hooks/useTheme';
 import Leaderboard from './pages/LeaderBoard';
+import { useNavigate } from 'react-router-dom';
 
 function App() {
+
+  const navigate = useNavigate();
+
   return (
     <ThemeProvider>
       <ModeProvider>
@@ -19,7 +23,7 @@ function App() {
           <div className="max-w-[790px] mx-auto pb-20">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/home" element={<Home />} />
+              <Route path="/home" element={<Home onClipsClick={()=>navigate('/clips')} />} />
               <Route path="/matchsummary" element={<MatchSummary />} />
               <Route path="/clips" element={<ClipsFeed />} />
               <Route path="/progress" element={<Career />} />

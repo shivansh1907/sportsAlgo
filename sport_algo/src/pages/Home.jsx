@@ -127,7 +127,7 @@ export default function Home({ onMatchClick = () => {}, onClipsClick = () => {} 
       <MatchCard
         match={latestMatch}
         variant="compact"
-        onClick={() => onMatchClick(latestMatch.id)}
+       
         onClick={()=>navigate('/matchsummary')}
       />
 
@@ -154,7 +154,7 @@ export default function Home({ onMatchClick = () => {}, onClipsClick = () => {} 
             Your Highlights
           </h3>
           <button
-            onClick={onClipsClick}
+            onClick={() => navigate('/clips')}
             className="text-[10px] text-[#CCF930] font-medium hover:underline"
           >
             See all
@@ -176,7 +176,7 @@ export default function Home({ onMatchClick = () => {}, onClipsClick = () => {} 
 
       {/* ═══ Quick links ═══ */}
       <div className="grid grid-cols-2 gap-2 pb-4">
-        <button className="flex items-center justify-center gap-2 py-2.5 rounded-lg border border-[var(--border)] text-[var(--text-secondary)] text-xs font-medium uppercase tracking-wider hover:border-[#CCF930]/30 hover:text-[#CCF930] transition-colors">
+        <button onClick={()=>navigate('/progress')} className="flex items-center justify-center gap-2 py-2.5 rounded-lg border border-[var(--border)] text-[var(--text-secondary)] text-xs font-medium uppercase tracking-wider hover:border-[#CCF930]/30 hover:text-[#CCF930] transition-colors">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
           </svg>
