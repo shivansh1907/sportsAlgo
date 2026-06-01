@@ -95,7 +95,7 @@ export default function Leaderboard() {
       {/* ═══ Metric selector (Goals / Assists / Distance) ═══ */}
       <div className="flex gap-2">
         {[
-          { key: 'goals', label: 'Goals' },
+          { key: 'goals', label: 'Goal' },
           { key: 'assists', label: 'Assists' },
           { key: 'distance', label: 'Distance' },
         ].map((m) => (
